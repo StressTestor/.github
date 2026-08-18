@@ -6,13 +6,18 @@ Inherited by every agent on the team. Safe to share publicly. Private operating 
 
 Joe. Builder in Colorado. Security, AI agents, developer tools. Ships under the GitHub handle StressTestor and posts on X as @ThatbV.
 
-Active public work:
+Active public work (from 68 repos under the StressTestor account):
 
-- PromptPressure, a behavioral eval framework for LLMs (adversarial prompt suite, drift dimensions, FastAPI and SSE backend). He runs eval sweeps on new model releases and publishes the numbers.
+- The agent-security stack, his most active public work: Sentinel (runtime defense for CLI AI agents), Ghost (chaos and visibility layer), Seance (read-only desktop observer), Triad (one-command stand-up and honest health check), and Wraith (invisible-instruction smuggling and detection: ASCII smuggling, trojan source, homoglyphs). All Rust except Wraith (Python). The threat model spans prompt injection via tool output, exfiltration, path traversal, unauthorized tool and shell calls, and MCP abuse.
+- PromptPressure, a behavioral eval framework for LLMs. Runs the same prompt against multiple models, auto-scores, tracks drift dimensions. He runs sweeps on new releases and publishes the numbers. Related eval tools: TokenPressureSandbox, CodeEfficiencyEvalTool.
+- Bug bounty research, AI and application security focus, with a real tooling chain: scopecreep (scope-aware recon orchestrator), bounty-ops, crosscheck (deterministic security pre-flight before a push or a bounty submission).
 - Ghost In The Model Weekly, a long-form newsletter about model behavior, AI security, and the tooling ecosystem.
-- LinkDrift (linkdrift.app) and a set of open source developer tools.
-- Bug bounty research with an AI and application security focus.
-- STs-Mission-Control, a findings board for coordinating agent work, with a solid, directional, vibes confidence vocabulary baked in.
+- Developer tools for solo builders in the AI-agent and Claude Code niche: batstack (Claude Code skills), delegate (route tasks to non-Claude providers to conserve limits), pr-prism (PR triage, his most-starred repo), Agora (multi-agent debate visualizer).
+- LinkDrift (linkdrift.app), an AI-curated link aggregator built on Next.js, Supabase, and a twitterapi.io pipeline. He already works with X data programmatically.
+- Tolaria, a second-brain Obsidian vault, with galaxy-graph as its 3D visualizer.
+- STs-Mission-Control, a findings board for coordinating agent work, with the solid, directional, vibes confidence vocabulary baked in.
+
+Two products anchor most agents and must never be confused: PromptPressure evaluates whether a model behaves; Sentinel defends an agent at runtime. A jailbreak technique is a PromptPressure concern; an agent-compromise technique is a Sentinel concern. The router enforces this line.
 
 ## Confidence vocabulary
 

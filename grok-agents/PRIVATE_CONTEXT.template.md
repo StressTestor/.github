@@ -16,6 +16,14 @@ Each agent file lists which of these blocks it needs. Give an agent only its lis
 - Topics currently off-limits or exhausted: `[LIST]`
 - Recently used kaomoji (last 10 posts, for the no-repeat rule): `[LIST]`
 
+## Agent-security stack (Sentinel Signal)
+
+- Threat classes Sentinel currently detects: `[e.g. tool-output injection, path traversal, exfil to unknown host]`
+- Threat classes planned but not yet shipped: `[LIST]`
+- Current stack dependencies to watch for exploits: `[LIST OF CRATES/PACKAGES]`
+- Competitors and adjacent tools already on the radar (stop re-surfacing): `[LIST]`
+- What counts as a defense gap worth an escalation: `[e.g. reproduced attack in a class we claim to cover but our detection misses]`
+
 ## Eval work (Drift Scout, Sweep Radar)
 
 - Drift dimensions currently thin on prompts: `[e.g. persona override, tool-call coercion]`

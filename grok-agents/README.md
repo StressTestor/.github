@@ -1,6 +1,8 @@
 # Grok agent team
 
-A team of six Grok agents designed around one person's actual workload: adversarial LLM evaluation, AI security research, a weekly newsletter about the model ecosystem, an X presence with a codified voice, bug bounty hunting, and earnings-window trading decisions.
+A team of seven Grok agents designed around one person's actual workload: a CLI-agent security stack (Sentinel, Ghost, Seance, Triad, Wraith), adversarial LLM evaluation (PromptPressure), a weekly newsletter about the model ecosystem, an X presence with a codified voice, active bug bounty hunting, and earnings-window trading decisions.
+
+Profile refined against 68 repositories under the StressTestor account. The dominant public work is the agent-security stack, so the team leads with it. Full profile notes are in `PROFILE.md`.
 
 Every agent here passed two filters:
 
@@ -13,6 +15,7 @@ Agents that failed either filter were cut. The full slate, scores, and cut ratio
 
 | Agent | One line | Cadence |
 |---|---|---|
+| [Sentinel Signal](agents/sentinel-signal.md) | Tracks new attacks against CLI/AI agents the Sentinel stack should catch, plus agent-security ecosystem moves | Daily |
 | [Drift Scout](agents/drift-scout.md) | Turns live jailbreak and red-team chatter into candidate prompts for the PromptPressure eval suite | Daily |
 | [Sweep Radar](agents/sweep-radar.md) | Detects model releases and silent behavior changes worth an eval sweep, before official notes | Event-driven |
 | [Receipts Desk](agents/receipts-desk.md) | Builds the evidence file for Ghost In The Model Weekly so no load-bearing claim ships as Vibes | Weekly |
@@ -41,8 +44,8 @@ For each agent:
 
 This repo is public. The line between files:
 
-- Public: agent designs, process, evidence standards, the @ThatbV handle and project names already linked from the public GitHub profile.
-- Private, never committed: ticker watchlists, position or account data of any kind, bounty program targets, alternate handles, posting-hours schedule, anything about people in your life.
+- Public: agent designs, process, evidence standards, the @ThatbV handle, and project names already public on GitHub (Sentinel, Ghost, Seance, Triad, Wraith, PromptPressure, LinkDrift, and the rest).
+- Private, never committed: ticker watchlists, position or account data of any kind, bounty program targets, private repos and their contents, alternate handles, posting-hours schedule, the specific threat classes the stack does or does not yet cover, anything about people in your life.
 
 If an agent's output would need private context to make sense, that output stays inside Grok.
 
